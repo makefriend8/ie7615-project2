@@ -1,0 +1,22 @@
+{
+  "seed": 7615,
+  "dataset_size": 1200,
+  "train_size": 1000,
+  "validation_size": 100,
+  "image_size": 512,
+  "min_words": 5,
+  "max_words": 50,
+  "raw_root": "data/raw",
+  "dataset_dir": "data/curated_v1",
+  "run_dir": "results/m1_baseline_v1",
+  "clip_model": "openai/clip-vit-base-patch32",
+  "clip_revision": "main",
+  "sd_model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "sd_revision": "main",
+  "embedding_samples": 32,
+  "embedding_batch_size": 8,
+  "prompt_count": 12,
+  "steps": 30,
+  "guidance_scale": 7.5,
+  "require_cuda": true
+}

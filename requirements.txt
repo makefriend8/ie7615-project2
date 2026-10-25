@@ -1,0 +1,12 @@
+# Python 3.10.16
+torch==2.5.1
+diffusers==0.32.2
+transformers==4.49.0
+accelerate==1.5.2
+huggingface-hub==0.29.3
+safetensors==0.5.3
+numpy==1.26.4
+Pillow==11.1.0
+ipykernel==6.29.5
+ipython==8.34.0
+nbconvert==7.16.6
