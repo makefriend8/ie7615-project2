@@ -1,0 +1,90 @@
+[
+  {
+    "configuration": "B",
+    "n": 36,
+    "mean_s": 2.129,
+    "median_s": 2.13,
+    "peak_GiB": 3.06,
+    "U-Net_calls": [
+      31
+    ],
+    "flagged": 0
+  },
+  {
+    "configuration": "G-low",
+    "n": 36,
+    "mean_s": 2.135,
+    "median_s": 2.134,
+    "peak_GiB": 3.06,
+    "U-Net_calls": [
+      31
+    ],
+    "flagged": 0
+  },
+  {
+    "configuration": "G-high",
+    "n": 36,
+    "mean_s": 2.133,
+    "median_s": 2.131,
+    "peak_GiB": 3.06,
+    "U-Net_calls": [
+      31
+    ],
+    "flagged": 0
+  },
+  {
+    "configuration": "T-short",
+    "n": 36,
+    "mean_s": 1.473,
+    "median_s": 1.473,
+    "peak_GiB": 3.06,
+    "U-Net_calls": [
+      21
+    ],
+    "flagged": 0
+  },
+  {
+    "configuration": "T-long",
+    "n": 36,
+    "mean_s": 3.446,
+    "median_s": 3.446,
+    "peak_GiB": 3.06,
+    "U-Net_calls": [
+      51
+    ],
+    "flagged": 0
+  },
+  {
+    "configuration": "S-DDIM",
+    "n": 36,
+    "mean_s": 2.068,
+    "median_s": 2.067,
+    "peak_GiB": 3.06,
+    "U-Net_calls": [
+      30
+    ],
+    "flagged": 0
+  },
+  {
+    "configuration": "N-trailing",
+    "n": 36,
+    "mean_s": 2.069,
+    "median_s": 2.067,
+    "peak_GiB": 3.06,
+    "U-Net_calls": [
+      30
+    ],
+    "flagged": 0
+  },
+  {
+    "configuration": "C",
+    "n": 36,
+    "mean_s": 2.131,
+    "median_s": 2.13,
+    "peak_GiB": 3.06,
+    "U-Net_calls": [
+      31
+    ],
+    "flagged": 0
+  }
+]

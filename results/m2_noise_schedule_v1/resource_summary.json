@@ -1,0 +1,38 @@
+[
+  {
+    "configuration": "N-scaled",
+    "beta_schedule": "scaled_linear",
+    "n": 36,
+    "mean_s": 9.976,
+    "median_s": 9.975,
+    "peak_GiB": 3.449,
+    "U-Net_calls": [
+      30
+    ],
+    "flagged": 0
+  },
+  {
+    "configuration": "N-linear",
+    "beta_schedule": "linear",
+    "n": 36,
+    "mean_s": 9.977,
+    "median_s": 9.977,
+    "peak_GiB": 3.449,
+    "U-Net_calls": [
+      30
+    ],
+    "flagged": 0
+  },
+  {
+    "configuration": "N-cosine",
+    "beta_schedule": "squaredcos_cap_v2",
+    "n": 36,
+    "mean_s": 9.979,
+    "median_s": 9.979,
+    "peak_GiB": 3.449,
+    "U-Net_calls": [
+      30
+    ],
+    "flagged": 0
+  }
+]

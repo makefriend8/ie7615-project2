@@ -1,0 +1,230 @@
+[
+  {
+    "index": 1,
+    "image_id": 338560,
+    "caption_id": 670079,
+    "prompt": "A blue fire hydrant posed on a street corner in a city.",
+    "ground_truth": "images/000000338560.png",
+    "categories": [
+      "car",
+      "fire hydrant",
+      "traffic light"
+    ],
+    "seed": 7615,
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "flickr_url": "http://farm5.staticflickr.com/4044/4583091116_28eaab2a2b_z.jpg"
+  },
+  {
+    "index": 2,
+    "image_id": 80932,
+    "caption_id": 485745,
+    "prompt": "A child taking a bite of a pizza slice on a plate.",
+    "ground_truth": "images/000000080932.png",
+    "categories": [
+      "chair",
+      "cup",
+      "dining table",
+      "fork",
+      "person",
+      "pizza"
+    ],
+    "seed": 7616,
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "flickr_url": "http://farm5.staticflickr.com/4075/5487804660_f06d600b35_z.jpg"
+  },
+  {
+    "index": 3,
+    "image_id": 340894,
+    "caption_id": 310456,
+    "prompt": "Two computers are sitting on top of the desk.",
+    "ground_truth": "images/000000340894.png",
+    "categories": [
+      "cell phone",
+      "chair",
+      "cup",
+      "keyboard",
+      "laptop",
+      "mouse",
+      "person",
+      "tv"
+    ],
+    "seed": 7617,
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "flickr_url": "http://farm1.staticflickr.com/63/198876231_494acc23d1_z.jpg"
+  },
+  {
+    "index": 4,
+    "image_id": 519522,
+    "caption_id": 784562,
+    "prompt": "a large tower that has a big clock at top",
+    "ground_truth": "images/000000519522.png",
+    "categories": [
+      "clock"
+    ],
+    "seed": 7618,
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "flickr_url": "http://farm8.staticflickr.com/7127/7014010645_8b20027f68_z.jpg"
+  },
+  {
+    "index": 5,
+    "image_id": 259571,
+    "caption_id": 581555,
+    "prompt": "An orange truck driving down a street full of men in the back.",
+    "ground_truth": "images/000000259571.png",
+    "categories": [
+      "bus",
+      "person",
+      "truck"
+    ],
+    "seed": 7619,
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "flickr_url": "http://farm1.staticflickr.com/3/5896793_d55320306b_z.jpg"
+  },
+  {
+    "index": 6,
+    "image_id": 83113,
+    "caption_id": 691431,
+    "prompt": "Animals trying to either move or go around fallen tree branches",
+    "ground_truth": "images/000000083113.png",
+    "categories": [
+      "elephant"
+    ],
+    "seed": 7620,
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "flickr_url": "http://farm4.staticflickr.com/3373/4600247394_f71c8745c3_z.jpg"
+  },
+  {
+    "index": 7,
+    "image_id": 82715,
+    "caption_id": 160363,
+    "prompt": "A person that is surfing in the water.",
+    "ground_truth": "images/000000082715.png",
+    "categories": [
+      "person",
+      "surfboard"
+    ],
+    "seed": 7621,
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "flickr_url": "http://farm7.staticflickr.com/6149/5990681178_851ce5b57a_z.jpg"
+  },
+  {
+    "index": 8,
+    "image_id": 245448,
+    "caption_id": 288278,
+    "prompt": "A man standing with his motorcycle outside of a repair shop.",
+    "ground_truth": "images/000000245448.png",
+    "categories": [
+      "motorcycle",
+      "person",
+      "truck"
+    ],
+    "seed": 7622,
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "flickr_url": "http://farm8.staticflickr.com/7369/9008356167_15a9a846a3_z.jpg"
+  },
+  {
+    "index": 9,
+    "image_id": 285894,
+    "caption_id": 160532,
+    "prompt": "A giraffe has come to a fence line to greet visitors.",
+    "ground_truth": "images/000000285894.png",
+    "categories": [
+      "giraffe",
+      "person"
+    ],
+    "seed": 7623,
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "flickr_url": "http://farm3.staticflickr.com/2021/3841450193_830aa3b8b7_z.jpg"
+  },
+  {
+    "index": 10,
+    "image_id": 286507,
+    "caption_id": 202210,
+    "prompt": "A long red train traveling through snow covered country side.",
+    "ground_truth": "images/000000286507.png",
+    "categories": [
+      "train"
+    ],
+    "seed": 7624,
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "flickr_url": "http://farm9.staticflickr.com/8115/8711742982_4f1be566da_z.jpg"
+  },
+  {
+    "index": 11,
+    "image_id": 430961,
+    "caption_id": 760831,
+    "prompt": "A baseball player preparing to throw a pitch during a game.",
+    "ground_truth": "images/000000430961.png",
+    "categories": [
+      "baseball glove",
+      "person",
+      "sports ball"
+    ],
+    "seed": 7625,
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "flickr_url": "http://farm4.staticflickr.com/3455/3180605599_f895f404f0_z.jpg"
+  },
+  {
+    "index": 12,
+    "image_id": 139872,
+    "caption_id": 330458,
+    "prompt": "A dog laying on grass near a flying disc.",
+    "ground_truth": "images/000000139872.png",
+    "categories": [
+      "dog",
+      "frisbee",
+      "person"
+    ],
+    "seed": 7626,
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "flickr_url": "http://farm1.staticflickr.com/92/260183330_494bd996d8_z.jpg"
+  }
+]

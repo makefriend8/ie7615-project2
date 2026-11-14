@@ -36,6 +36,11 @@ ENVIRONMENT_PACKAGES = {
     "safetensors": "safetensors", "numpy": "numpy", "Pillow": "PIL",
     "ipykernel": "ipykernel", "ipython": "IPython",
 }
+# These settings affect pair selection, preprocessing, splitting or token filtering.
+DATASET_CONFIG_KEYS = (
+    "seed", "dataset_size", "train_size", "validation_size", "image_size",
+    "min_words", "max_words", "clip_model", "clip_revision",
+)
 
 
 def sha256(path):
@@ -150,11 +155,18 @@ def manifest(c):
 
 
 def verify_dataset(c):
-    """Validate pair counts, split disjointness and hashes against the saved manifest."""
+    """Validate dataset settings and artifacts independently of generation settings."""
     base = local_path(c, "dataset_dir")
     summary = read_json(base / "dataset_summary.json")
-    if summary["config_hash"] != digest(c):
-        raise RuntimeError("Config changed. Use a new dataset_dir and run_dir for a new experiment.")
+    # Retain the original full-config hash, including for existing M1 datasets.
+    saved = summary.get("config")
+    if not isinstance(saved, dict) or digest(saved) != summary.get("config_hash"):
+        raise RuntimeError("Saved dataset configuration is missing or its hash differs.")
+    changed = [key for key in DATASET_CONFIG_KEYS
+               if key not in saved or key not in c or saved[key] != c[key]]
+    if changed:
+        raise RuntimeError("Dataset settings changed: " + ", ".join(changed)
+                           + ". Use a new dataset_dir for a different dataset.")
     if sha256(base / "manifest.jsonl") != summary["manifest_sha256"]:
         raise RuntimeError("Manifest changed after dataset preparation.")
     rows = manifest(c)

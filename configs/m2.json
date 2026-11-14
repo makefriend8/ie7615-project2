@@ -1,0 +1,27 @@
+{
+  "model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "model_revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "local_files_only": true,
+  "dataset_dir": "data/curated_v1",
+  "prompts_file": "configs/m2_prompts.json",
+  "image_size": 512,
+  "condition_weight": 1.2,
+  "seed_offsets": [0, 1000, 2000],
+  "smoke_prompt_ids": [1, 12],
+  "smoke_dir": "results/m2_conditioning_v1",
+  "sweep_dir": "results/m2_sweep_v1",
+  "spans": {
+    "1": "fire hydrant",
+    "2": "pizza slice",
+    "3": "Two computers",
+    "4": "clock",
+    "5": "men",
+    "6": "fallen tree branches",
+    "7": "surfing",
+    "8": "motorcycle",
+    "9": "giraffe",
+    "10": "red train",
+    "11": "throw a pitch",
+    "12": "flying disc"
+  }
+}
